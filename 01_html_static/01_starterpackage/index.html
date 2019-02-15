@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <!-- generic -->
     <meta charset="utf-8">
     <title>DGUI 1 - Visitenkarte</title>
     <meta name="description" content="static intro">
     <meta name="author" content="Vorname Name">
-
     <!-- Hier Bootstrap integrieren -->
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <!-- Hier eigenes CSS integrieren -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
 
-  </head>
-
-  <body>
-      <h1> Übung 1 - Visitenkarte </h1>
-      <!-- Hier Personeninfos schreiben -->
-
-      <script type="text/javascript">
-      // Brauchen wir hier eigentlich nicht
-      console.log("Hallo Velo!");
-      </script>
-  </body>
+<body>
+    <!-- Hier Personeninfos schreiben -->
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="Elefantenherde.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Übung 1 - Visitenkarte</h5>
+            <p class="card-text">HTW Chur</p>
+            <h3>Was kann ich gut?</h3>
+            <ol>
+                <li>Segelflieger bauen</li>
+                <li>Cello spielen</li>
+                <li>Tischtennis</li>
+            </ol>
+        </div>
+    </div>
+    <script type="text/javascript">
+    // Brauchen wir hier eigentlich nicht
+    console.log("Hallo Velo!");
+    </script>
+</body>
 
 </html>
